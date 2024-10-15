@@ -1,11 +1,12 @@
 import streamlit as st
 import numpy as np
+import pickle
 import pandas as pd
-import joblib  # For loading the model
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the trained model
-model = joblib.load("final_model.pkl")
+with open('final_model.pkl', 'rb') as file:
+    model = pickle.load(file)
 
 # Define the categories for OneHotEncoder (these should match what you trained your model on)
 categories = [
