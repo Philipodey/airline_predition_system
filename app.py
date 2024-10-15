@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pickle
-import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the trained model
