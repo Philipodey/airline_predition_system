@@ -35,3 +35,5 @@ ipykernel~=6.29.5
 tornado~=6.4.1
 kiwisolver~=1.4.7
 streamlit~=1.39.0
+
+scikit-learn~=1.2.0
